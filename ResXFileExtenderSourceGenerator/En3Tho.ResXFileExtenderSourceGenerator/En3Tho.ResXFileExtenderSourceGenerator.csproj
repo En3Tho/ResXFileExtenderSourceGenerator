@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>default</LangVersion>
+        <RootNamespace>En3Tho.ResXFileExtenderSourceGenerator</RootNamespace>
+        <Authors> Igor Bagdamyan</Authors>
+        <Copyright>Copyright (c) 2021 Igor Bagdamyan</Copyright>
+        <PackageProjectUrl>https://github.com/En3Tho/ResXFileExtenderSourceGenerator</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/En3Tho/ResXFileExtenderSourceGenerator/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/En3Tho/ResXFileExtenderSourceGenerator</RepositoryUrl>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>En3Tho.ResXFileExtenderSourceGenerator</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.2">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="3.9.0" />
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.9.0" />
+        <PackageReference Include="Microsoft.Net.Compilers.Toolset" Version="3.9.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+</Project>
