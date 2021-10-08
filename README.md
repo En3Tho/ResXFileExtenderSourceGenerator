@@ -4,6 +4,8 @@ A very simple SourceGenerator which is extending existing ResXGenerator by addin
 
 Usage:
 
+```
 <ItemGroup>
   <PackageReference Include="En3Tho.ResXFileExtenderSourceGenerator" Version="1.0.1" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
 </ItemGroup>
+```
